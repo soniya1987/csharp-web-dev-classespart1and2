@@ -16,5 +16,10 @@ namespace SchoolPractice
             YearsTeaching = yearsTeaching;
         }
 
+        public override string ToString()
+        {
+            return " (Teacher Name: " + LastName + " " + FirstName + ") ";
+        }
+
     }
 }
